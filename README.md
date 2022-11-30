@@ -1,2 +1,2 @@
 # contador
-projeto academico de contador simples
+projeto academico de contador simples com javascript
