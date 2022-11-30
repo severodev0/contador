@@ -1,11 +1,18 @@
- var currentnumberwrapper = document.getElementById("currentnumber");
- var currentnumber = 0 ;
+  var numero = 0; 
 
- function incremet(){
-    currentnumber = currentnumber +1;
-    currentnumberwrapper.innerHTML = currentnumber ;
+ var currentnumber = document.getElementById("currentnumber");
+
+ function increment(){
+numero = numero +1
+currentnumber.innerHTML = numero
+
  }
+ 
+
+ 
+ 
  function decrement(){
-    currentnumber = currentnumber -1;
-    currentnumberwrapper.innerHTML = currentnumber ;
+   numero = numero -1
+   currentnumber.innerHTML = numero
  }
+ 
